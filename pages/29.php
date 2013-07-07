@@ -1,6 +1,6 @@
 <div class="pt-page pt-page-productos container-fluid greenSection">
 	<p class="pageTitleHolder">Distibución</p>
-	<div class="contenido nextButton">
+	<div class="contenido">
 		<h2>PRODUCTOS</h2>
 		<ul class="nav nav-tabs" id="tabsProducto">
   			<li class="active"><a href="#detergentes">Detergentes</a></li>
@@ -16,7 +16,7 @@
             <li><a href="#pilas">Pilas</a></li>
             <li><a href="#salud">Salud</a></li>
 		</ul>
-		<div class="tab-content">
+		<div class="tab-content nextButton">
   			<div class="tab-pane active" id="detergentes"> 
             	<div class=" row-fluid">
                 	<div class="span12">
@@ -102,10 +102,15 @@
                 </div>   
             </div>
 		</div>
-<script>
-  $(function () {
-    $('#myTab a:last').tab('show');
-  })
-</script>
 	</div>
 </div>
+<script type="text/javascript">
+$(function () 
+{
+	$('#tabsProducto a').click(function(e)
+	{
+		$(this).tab('show');
+		e.preventDefault();
+	});
+});
+</script>
