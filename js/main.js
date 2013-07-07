@@ -1,9 +1,15 @@
 var Main = {
-	positionType: '',
+	positionType: 'supervisor',
 	
 	init: function()
 	{
 		Main.initMenu();
+		
+		$('.nav-tabs a').click(function(e)
+		{
+			$(this).tab('show');
+			e.preventDefault();
+		});
 	},
 	
 	initMenu: function()
@@ -49,7 +55,9 @@ var Main = {
 	
 	selectPositionType: function(position)
 	{
+		var oldColorClass = Main.getColorNameOfCurrentPosition()+'Section';
 		$('.pt-page-dp .posicion').removeClass(Main.positionType);
+		$('.pt-page-ett .posicion').removeClass(Main.positionType);
 		
 		Main.positionType = position;
 		
@@ -57,6 +65,26 @@ var Main = {
 		$('.pt-page-dp .posicion').addClass(Main.positionType);
 		$('.pt-page-dp .posicion .titulo p').html(Main.getNameOfCurrentPosition());
 		$('.pt-page-dp .nextButton').data('goToPage', Main.getDpGoToPage());
+		
+		//Comienza el entrenamiento (page 19)
+		$('.pt-page-ce .posicion').addClass(Main.positionType);
+		
+		//Elije tipo de tienda (page 26)
+		$('.pt-page-ett .posicion').addClass(Main.positionType);
+		showEttLinks();
+		
+		
+		//Change the background colors of sections
+		var colorClass = Main.getColorNameOfCurrentPosition()+'Section';
+		var sectionsToChange = [{pageId: 'pbv', max: 6}, {pageId: 'vta', max: 9},{pageId: 'vtbc', max: 8},{pageId: 'vm', max: 18}];
+		$.each(sectionsToChange, function(index, section) 
+		{
+			for(var i=1; i<section.max; i++)
+			{
+				$('.pt-page-'+section.pageId+'-'+i).removeClass(oldColorClass).addClass(colorClass);
+			}
+		});
+		$('.pt-page-productos').removeClass(oldColorClass).addClass(colorClass);
 	},
 	
 	getNameOfCurrentPosition: function()
@@ -93,6 +121,40 @@ var Main = {
 		}
 		
 		return 16;
+	},
+	
+	getColorNameOfCurrentPosition: function()
+	{
+		switch(Main.positionType)
+		{
+			case 'supervisor':
+				return 'green';
+				break;
+			case 'vendedorA':
+				return 'violet';
+				break;
+			case 'vendedorBC':
+				return 'orange';
+				break;
+		}
+		
+		return '';
+	},
+	
+	showEttLinks: function()
+	{
+		$('.pt-page-ett .posicion').show();
+		
+		switch(Main.positionType)
+		{
+			case 'vendedorA':
+				$('.pt-page-ett .posicion.tiendaBC').hide();
+				break;
+			case 'vendedorBC':
+				$('.pt-page-ett .posicion.tiendaA').hide();
+				$('.pt-page-ett .posicion.tiendaM').hide();
+				break;
+		}
 	}
 };
 
