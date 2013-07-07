@@ -1,4 +1,4 @@
-<div class="pt-page pt-page-i-8 container-fluid redSection">
+<div class="pt-page pt-page-i-8 container-fluid greenSection">
 				<p class="pageTitleHolder">Interacción P&G / Distribuidor / Changarro</p>
 				<div class="contenido nextButton">
 					<h2>ESTRUCTURA DE SERVICIO DE P&G AL DISTRIBUIDOR</h2>

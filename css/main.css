@@ -48,7 +48,7 @@ li { list-style:none; }
 .nextPosicion {position: relative;left: 111px;bottom: 31px;}
 .nextPosicionTwoLines {position: relative;left: 111px;bottom: 42px;
 }
-.SeccionPosicion { margin:160px 67px;}
+.SeccionPosicion /*{ margin:160px 67px;}*/{padding-top: 85px;}
 .contenido{ margin: 130px 92px;}
 .content{ margin:100px 56px;}
 .btMenu {position: absolute;left: 0px;top: 0px;}

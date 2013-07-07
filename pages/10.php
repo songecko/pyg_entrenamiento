@@ -1,4 +1,4 @@
-<div class="pt-page pt-page-i-6 container-fluid orangeSection">
+<div class="pt-page pt-page-i-6 container-fluid greenSection">
 				<p class="pageTitleHolder">Mapa por Distribuidor</p>
 				<div class="contenido nextButton">
                     <p class="textoDestacado">P&G llega a los changarros a través de 7 distribuidores a nivel nacional los cuales tienen presencia como se muestra a continuación:</p>

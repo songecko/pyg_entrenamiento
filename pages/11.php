@@ -1,4 +1,4 @@
-<div class="pt-page pt-page-i-7 container-fluid redSection">
+<div class="pt-page pt-page-i-7 container-fluid greenSection">
 				<p class="pageTitleHolder">Interacción P&G / Distribuidor / Changarro</p>
 				<div class="contenido nextButton">
 					<img src="http://placehold.it/744x400">
