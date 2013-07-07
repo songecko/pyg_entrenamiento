@@ -21,13 +21,14 @@ function get_include_contents($filename) {
 }
 
 //Include the pages
-$pagesQuantity = 3;
+$pagesQuantity = 72;
 
 $content = '';
 for($page = 1; $page <= $pagesQuantity; $page++)
 {
 	if (is_file('pages/'.$page.".php"))
 	{
+		$content .= "<!-- PAGE ".$page." -->\n";
 		$content .= get_include_contents("pages/".$page.".php");
 	}
 }

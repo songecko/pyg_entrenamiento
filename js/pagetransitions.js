@@ -1,45 +1,61 @@
 var PageTransitions = (function() {
 
 	var $main = $( '#pt-main' ),
-		$pages = $main.children( 'div.pt-page' ),
-		$iterate = $( '#iterateEffects' ),
-		animcursor = 1,
-		pagesCount = $pages.length,
-		current = 0,
-		isAnimating = false,
-		endCurrPage = false,
-		endNextPage = false,
-		animEndEventNames = {
-			'WebkitAnimation' : 'webkitAnimationEnd',
-			'OAnimation' : 'oAnimationEnd',
-			'msAnimation' : 'MSAnimationEnd',
-			'animation' : 'animationend'
-		},
-		// animation end event name
-		animEndEventName = animEndEventNames[ Modernizr.prefixed( 'animation' ) ],
-		// support css animations
-		support = Modernizr.cssanimations;
+	$pages = $main.children( 'div.pt-page' ),
+	$iterate = $( '#iterateEffects' ),
+	animcursor = 1,
+	pagesCount = $pages.length,
+	current = 0,
+	isAnimating = false,
+	endCurrPage = false,
+	endNextPage = false,
+	animEndEventNames = {
+		'WebkitAnimation' : 'webkitAnimationEnd',
+		'OAnimation' : 'oAnimationEnd',
+		'msAnimation' : 'MSAnimationEnd',
+		'animation' : 'animationend'
+	},
+	// animation end event name
+	animEndEventName = animEndEventNames[ Modernizr.prefixed( 'animation' ) ],
+	// support css animations
+	support = Modernizr.cssanimations;
 	
-	function init() {
-
+	function init() 
+	{
+		//Setup
 		$pages.each( function() {
 			var $page = $( this );
 			$page.data( 'originalClassList', $page.attr( 'class' ) );
 		} );
 
-		$pages.eq( current ).addClass( 'pt-page-current' );
+		setEventListeners();
 		
-		//Plays the sound of the first page
-		playSoundOfPage($pages.eq(current));
-		
-		//Set the page title of the page
-		setPageTitleOfPage($pages.eq(current));
-		
+		//If hash, go to the page
+		if(window.location.hash) 
+		{
+			var page = window.location.hash.substring(6);
+			goToPage(page-1, 0);
+		}else
+		{
+			//Else, set the first page
+			goToPage(0, 0);
+			//$pages.eq(current).addClass( 'pt-page-current' );
+			
+			//Plays the sound of the first page
+			//playSoundOfPage($pages.eq(current));
+			
+			//Set the page title of the page
+			//ssetPageTitleOfPage($pages.eq(current));
+		}
+	}
+
+	function setEventListeners()
+	{
 		$('.nextButton').click(function(e)
 		{
 			var pageToGo = $(this).data('goToPage');
 			var transitionEffect = $(this).data('transitionEffect');
-			if(transitionEffect == undefined) transitionEffect = 1;
+			if(transitionEffect == undefined) transitionEffect = 1;				
 			
 			if(pageToGo == undefined)
 			{
@@ -55,20 +71,8 @@ var PageTransitions = (function() {
 			prevPage(2);
 			e.preventDefault();
 		});
-
-		$iterate.on( 'click', function() {
-			if( isAnimating ) {
-				return false;
-			}
-			if( animcursor > 67 ) {
-				animcursor = 1;
-			}
-			nextPage( animcursor );
-			++animcursor;
-		} );
-
 	}
-
+	
 	function prevPage( animation ) 
 	{
 		if( current - 1 >= 0 ) {
@@ -387,13 +391,17 @@ var PageTransitions = (function() {
 			}
 		} );
 
-		if( !support ) {
+		if( !support || animation == 0 ) {
 			onEndAnimation( $currPage, $nextPage );
 		}
 
 	}
 
-	function onEndAnimation( $outpage, $inpage ) {		
+	function onEndAnimation( $outpage, $inpage ) 
+	{
+		//Set the page hash
+		window.location.hash = 'page-'+(current+1);
+		
 		//Plays the sound
 		stopSoundOfPage($outpage);
 		playSoundOfPage($inpage);
