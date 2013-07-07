@@ -1,41 +1,14 @@
-<div class="pt-page pt-page-3 container-fluid text-center">								
-	<div class="content">
-		<p class="tituloSeccion">Selecciona la sección para continuar</p>
-		<ul>
-			<li class="seccion greenSection">
-				<div class="titulo"><a href="informacion-de-pyg.html"><p>Información de P&G </p>
-					<img class="icono" src="img/ico-info.png" />
+<div class="pt-page pt-page-3 container-fluid">	
+				<audio preload="auto"><source src="audio/02_SISTEMA DE ENTRENAMIENTO.mp3" type="audio/mpeg" /></audio>
+				<div class="contenido">
+					<h2>SISTEMA DE ENTRENAMIENTO PARA DISTRIBUIDORES</h2>
+                    <p>En los próximos minutos vas a recibir una inducción completa de todo lo que debes hacer en tu día a día.</p>
+                    <p class="textoDestacado">La plataforma está dividida en 2 partes:</p>
+                    <p>&bull; Aprendizaje visual</p>
+                    <p>&bull; Evaluación visual</p>
+                    <p>Una vez que recorras toda la plataforma vas a entrar en una etapa de evaluación relacionada con los mensajes y esa puntuación formará parte de la base de datos de los Recursos Humanos para evaluar tu evolución.</p>
+                    <div class="text-center">
+                    	<a href="#" class="nextButton btn orangeButton">Continuar<i class="icon-next"></i></a>
+                    </div>
 				</div>
-			</li>
-			<li class="seccion orangeSection">
-				<div class="titulo"><a href="mapa-por-distribuidor.html"><p>Mapa por Distribuidor</p>
-					<img class="icono" src="img/ico-mapa.png" /></a>
-				</div>
-			</li>
-			<li class="seccion foto">
-				<img src="img/foto_01.jpg" />
-			</li>
-			<li class="seccion redSection">
-				<div class="titulo"><a href="interaccion-distribuidor-changarro.html"><p>Interacción PyG / Distribuidor / Changarro</p>
-					<img class="iconoEsp" src="img/ico-interaccion.png" /></a>
-				</div>
-			</li>
-			<li class="seccion foto">
-				<img src="img/foto_02.jpg" />
-			</li>
-			<li class="seccion violetSection">
-				<div class="titulo"><a href="informacion-del-canal.html"><p>Información del Canal</p>
-					<img class="icono" src="img/ico-informacion.png" /></a>
-				</div>
-			</li>
-			<li class="seccion fotoGrande">
-				<img src="img/fotoGrande.jpg" />
-			</li>
-			<li class="seccion blueSection">
-				<div class="titulo"><a href="objetivos.html"><p>Objetivo</p>
-					<img class="icono" src="img/ico-objetivo.png" /></a>
-				</div>
-			</li>
-		</ul>
-	</div>
 </div>

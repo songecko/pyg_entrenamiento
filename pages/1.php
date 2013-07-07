@@ -6,7 +6,7 @@
 	<div class="inicio">
 		<h2>¡Bienvenido!</h2>
 		<h3>Al Sistema de Entrenamiento <br /> para Distribuidores</h3>
-		<a href="#" class="nextButton btn greenButton">Ingresar<i class="icon-next"></i></a>
+		<a href="#" class="nextButton btn greenButton" data-transition-effect="22">Ingresar<i class="icon-next"></i></a>
 	</div>
 	<div class="footer text-center">
 		<img src="img/logo-marca.png" />

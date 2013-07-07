@@ -1,14 +1,20 @@
-<div class="pt-page pt-page-2 container-fluid">	
-	<audio preload="auto"><source src="audio/02_SISTEMA DE ENTRENAMIENTO.mp3" type="audio/mpeg" /></audio>
-	<div class="contenido">
-		<h2>SISTEMA DE ENTRENAMIENTO PARA DISTRIBUIDORES</h2>
-		<p>En los próximos minutos vas a recibir una inducción completa de todo lo que debes hacer en tu día a día.</p>
-		<p class="textoDestacado">La plataforma está dividida en 2 partes:</p>
-		<p>&bull; Aprendizaje visual</p>
-		<p>&bull; Evaluación visual</p>
-		<p>Una vez que recorras toda la plataforma vas a entrar en una etapa de evaluación relacionada con los mensajes y esa puntuación formará parte de la base de datos de los Recursos Humanos para evaluar tu evolución.</p>
-		<div class="text-center">
-			<a href="#" class="nextButton btn orangeButton">Continuar<i class="icon-next"></i></a>
-		</div>
-	</div>
-</div>
+<div class="pt-page pt-page-2 container-fluid text-center">
+            	<img src="img/fondo_2.jpg" class="background" />
+				<div class="SeccionPosicion content">
+					<p class="tituloSeccion">Elije tu Posición y comienza el Entrenamiento</p>
+                    <ul>
+                    	<li class="posicion supervisor">
+                        	<img src="img/foto-01.jpg"  />
+                            <div class="titulo"><a href="#"><p>Supervisor</p><img src="img/bt-siguiente.png" class="nextPosicion" /></a></div>
+                        </li>
+                        <li class="posicion vendedorA">
+                        	<img src="img/foto-01.jpg"  />
+                            <div class="titulo"><a href="#"><p>Vendedor A</p><img src="img/bt-siguiente.png" class="nextPosicion" /></a></div>
+                        </li>
+                        <li class="posicion vendedorBC">
+                        	<img src="img/foto-01.jpg"  />
+                            <div class="titulo"><a href="#"><p>Vendedor B/C</p><img src="img/bt-siguiente.png" class="nextPosicion" /></a></div>
+                        </li>
+                    </ul>
+				</div>
+			</div>

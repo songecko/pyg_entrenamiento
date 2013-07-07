@@ -37,7 +37,16 @@ var PageTransitions = (function() {
 		
 		$('.nextButton').click(function(e)
 		{
-			nextPage(1);
+			var pageToGo = $(this).data('goToPage');
+			var transitionEffect = $(this).data('transitionEffect');
+			if(transitionEffect == undefined) transitionEffect = 1;
+			
+			if(pageToGo == undefined)
+			{
+				nextPage(1);
+			}else {
+				goToPage(pageToGo-1, transitionEffect);
+			}
 			e.preventDefault();
 		});
 		
