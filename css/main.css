@@ -33,11 +33,16 @@ p { font-size: 20px;}
 .supervisor .titulo { background: #6aa730; height: 93px;}
 .vendedorA .titulo { background: #8e499c; height: 93px;}
 .vendedorBC .titulo { background: #ee5326; height: 93px;}
-.greenSection { background: #6aa730; }
+.greenSection { background: #6aa730;}
+.pt-page.greenSection{ background: #6aa730 url(../img/bg04.jpg) no-repeat;background-size: cover;  }
 .orangeSection { background: #ee5325; }
+.pt-page.orangeSection { background: #ee5325 url(../img/bg06.jpg)no-repeat; background-size: cover; }
 .redSection { background: #c3213f; }
+.pt-page.redSection { background: #c3213f url(../img/bg03.jpg) no-repeat; background-size: cover; }
 .violetSection { background: #8e499c; }
+.pt-page.violetSection { background: #8e499c url(../img/bg02.jpg) no-repeat; background-size: cover; }
 .blueSection { background: #024f95;}
+.pt-page.blueSection { background: #024f95 url(../img/bg01.jpg)no-repeat; background-size: cover;}
 .seccion .titulo { background-position-x: 22px; background-position-y: 102px; height: 163px; }
 .fotoGrande { width: 558px; }
 li { list-style:none; }
@@ -69,7 +74,12 @@ z-index: 5;
 margin: 0;
 list-style: none;
 text-align:center;}
-.paginador li {
+.paginador li { background:url(../img/paginationDisable.png) no-repeat; display: block;
+float: left;
+width: 11px;
+height: 13px;
+margin-left: 5px;
+text-indent: -999px;} /*{
 display: block;
 float: left;
 width: 10px;
@@ -78,9 +88,8 @@ margin-left: 5px;
 text-indent: -999px;
 background-color: #ccc;
 background-color: rgba(255,255,255,0.25);
-border-radius: 5px;}
-.paginador .active {
-background-color: #fff;}
+border-radius: 5px;}*/
+.paginador .active { background:url(../img/paginationActive.png) no-repeat;}
 .posicion a,.seccion a {color: #ffffff;
 text-decoration: none;}
 /***************   MENU */
