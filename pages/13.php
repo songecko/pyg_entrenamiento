@@ -1,4 +1,4 @@
-<div class="pt-page pt-page-i-9 container-fluid violetSection">
+<div class="pt-page pt-page-i-9 container-fluid greenSection">
 				<p class="pageTitleHolder">Información del Canal</p>
 				<div class="contenido nextButton">
 					<h2>ESTRATEGIAS DEL CANAL TRADICIONAL</h2>

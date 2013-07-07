@@ -1,4 +1,4 @@
-<div class="pt-page pt-page-i-10 container-fluid blueSection">
+<div class="pt-page pt-page-i-10 container-fluid greenSection">
 				<p class="pageTitleHolder">Objetivos</p>
 				<audio preload="auto"><source src="audio/03_OBJETIVO.mp3" type="audio/mpeg" /></audio>
 				<div class="contenido nextButton text-center">
