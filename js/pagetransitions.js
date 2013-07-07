@@ -39,13 +39,6 @@ var PageTransitions = (function() {
 		{
 			//Else, set the first page
 			goToPage(0, 0);
-			//$pages.eq(current).addClass( 'pt-page-current' );
-			
-			//Plays the sound of the first page
-			//playSoundOfPage($pages.eq(current));
-			
-			//Set the page title of the page
-			//ssetPageTitleOfPage($pages.eq(current));
 		}
 	}
 
@@ -399,8 +392,10 @@ var PageTransitions = (function() {
 
 	function onEndAnimation( $outpage, $inpage ) 
 	{
+		var currentPage = current+1;
+		
 		//Set the page hash
-		window.location.hash = 'page-'+(current+1);
+		window.location.hash = 'page-'+currentPage;
 		
 		//Plays the sound
 		stopSoundOfPage($outpage);
@@ -408,6 +403,11 @@ var PageTransitions = (function() {
 		
 		//Set the page title of the page
 		setPageTitleOfPage($inpage);
+		
+		if(currentPage >= 4)
+		{
+			$('.menuSuperior .left').show();
+		}
 		
 		endCurrPage = false;
 		endNextPage = false;

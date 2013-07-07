@@ -21,7 +21,7 @@
 	<body>
 		<img src="img/fondo_2.jpg" class="background" />
 		<div class="menuSuperior">
-			<div id="">
+			<div class="left">
 				<a class="btn_menu" id="OpenMenu"><img src="img/ico-menu.png" class="btMenu"  /></a>
 				<img src="img/bt-siguiente-der.png" class="tituloSupervisor"  />
 				<p id="pageTitle"></p>
