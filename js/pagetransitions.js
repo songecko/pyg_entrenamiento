@@ -407,6 +407,7 @@ var PageTransitions = (function() {
 		if(currentPage >= 4)
 		{
 			$('.menuSuperior .left').show();
+			$('.menuSuperior .btLogoMarca').show();
 		}
 		
 		endCurrPage = false;

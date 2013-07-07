@@ -58,7 +58,7 @@ li { list-style:none; }
 .content{ margin:100px 56px;}
 .pt-page-ce .content{ margin:100px 200px;}
 .btMenu {position: absolute;left: 0px;top: 0px;}
-.btLogoMarca {position: absolute; float:left; right: 0px;top: 0px; z-index:99;}
+.btLogoMarca {position: absolute; float:left; right: 0px;top: 0px; z-index:99; display:none;}
 .tituloSupervisor {position: absolute;left: 110px;top: 31px;  z-index: 99;}
 .menuSuperior p {position: absolute;top: 35px;left: 144px;}
 [class^="icon-"], [class*=" icon-"] {

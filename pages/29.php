@@ -2,7 +2,7 @@
 	<p class="pageTitleHolder">Distibución</p>
 	<div class="contenido">
 		<h2>PRODUCTOS</h2>
-		<ul class="nav nav-tabs">
+		<ul class="nav nav-tabs" id="productosTab">
   			<li class="active"><a href="#detergentes">Detergentes</a></li>
  	 		<li><a href="#suavizantes">Suavizantes</a></li>
   			<li><a href="#lavatrastes">Lavatrastes</a></li>
@@ -104,13 +104,10 @@
 		</div>
 	</div>
 	<script type="text/javascript">
-	$(function () 
+	$('#productosTab a').click(function(e)
 	{
-		$('#tabsProducto a').click(function(e)
-		{
-			$(this).tab('show');
-			e.preventDefault();
-		});
+		$(this).tab('show');
+		e.preventDefault();			
 	});
 	</script>
 </div>

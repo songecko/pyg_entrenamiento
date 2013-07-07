@@ -1,4 +1,5 @@
-<div class="pt-page pt-page-4 container-fluid text-center">								
+<div class="pt-page pt-page-4 container-fluid text-center">
+	<p class="pageTitleHolder">Bienvenidos</p>								
 	<div class="content">
 		<p class="tituloSeccion">Selecciona la sección para continuar</p>
 		<ul>

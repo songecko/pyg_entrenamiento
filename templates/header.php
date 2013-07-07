@@ -32,7 +32,7 @@
 				<!-- cerrar menu -->
 				<a class="close_menu" id="CloseMenu"></a>
 				<!-- ir a la pantalla principal -->
-				<a class="btn_home" id="go_home" href="#"><i></i>Inicio</a>
+				<a class="btn_home" id="go_home" href="#" data-go-to-page="4"><i></i>Inicio</a>
 				<!-- menu -->
 				<ul>
 					<li class="nextButton" data-go-to-page="5">Información de P&G </li>

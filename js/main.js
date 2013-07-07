@@ -5,11 +5,14 @@ var Main = {
 	{
 		Main.initMenu();
 		
-		$('.nav-tabs a').click(function(e)
+		$('#productos a:first').click(function(e)
 		{
 			$(this).tab('show');
 			e.preventDefault();
 		});
+		
+		console.log($('.nav-tabs a:first-child'));
+		$('.nav-tabs a:first').tab('show');
 	},
 	
 	initMenu: function()
@@ -57,6 +60,7 @@ var Main = {
 	{
 		var oldColorClass = Main.getColorNameOfCurrentPosition()+'Section';
 		$('.pt-page-dp .posicion').removeClass(Main.positionType);
+		$('.pt-page-ce .posicion').removeClass(Main.positionType);
 		$('.pt-page-ett .posicion').removeClass(Main.positionType);
 		
 		Main.positionType = position;
@@ -68,6 +72,7 @@ var Main = {
 		
 		//Comienza el entrenamiento (page 19)
 		$('.pt-page-ce .posicion').addClass(Main.positionType);
+		$('.pt-page-ce .pageTitleHolder').html(Main.getNameOfCurrentPosition());
 		
 		//Elije tipo de tienda (page 26)
 		$('.pt-page-ett .posicion').addClass(Main.positionType);
