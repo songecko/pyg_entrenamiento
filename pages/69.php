@@ -10,9 +10,9 @@
                     -Generar distribución del portafolio indicado en el 100% de sus tiendas.<br />
                     -Generar y mantener buenas relaciones con sus clientes y compañeros de equipo.<br />
                     -Hacer llegas a sus clientes las novedades que se le indiquen, en el tiempo correcto.<br />
-                    -Llevar al distribuidor información sobre el mercado y la competencia.<br />
+                    -Llevar al distribuidor información sobre el mercado y la competencia.</p><br />
                     <h2>Responsabilidades</h2>
-                    -Visitar el 100% de sus tiendas, cada día según el ruteo asignado por el distribuidor.<br />
+                    <p>-Visitar el 100% de sus tiendas, cada día según el ruteo asignado por el distribuidor.<br />
                     -Cumplir con los objetivos establecidos de distribución y ventas.<br />
                     -Conocer los productos y promociones para poder realizar ventas<br />
                     -Ejecutar el Procedimiento Básico de Visita indicado por el Supervisor.<br />
