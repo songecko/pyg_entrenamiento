@@ -76,7 +76,7 @@ var Main = {
 		
 		//Elije tipo de tienda (page 26)
 		$('.pt-page-ett .posicion').addClass(Main.positionType);
-		showEttLinks();
+		Main.showEttLinks();
 		
 		
 		//Change the background colors of sections
