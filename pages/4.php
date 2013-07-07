@@ -17,7 +17,7 @@
 			<li class="seccion foto">
 				<img src="img/foto_01.jpg" />
 			</li>
-			<li class="seccion redSection nextButton" data-go-to-page="5">
+			<li class="seccion redSection nextButton" data-go-to-page="20">
 				<div class="titulo">
 					<p>Procedimiento básico de la visita</p>
 					<img class="iconoEsp" src="img/ico-interaccion.png" />
@@ -26,7 +26,7 @@
 			<li class="seccion foto">
 				<img src="img/foto_02.jpg" />
 			</li>
-			<li class="seccion violetSection nextButton" data-go-to-page="5">
+			<li class="seccion violetSection nextButton" data-go-to-page="26">
 				<div class="titulo">
 					<p>Selector de tiendas</p>
 					<img class="icono" src="img/ico-informacion.png" />
@@ -35,7 +35,7 @@
 			<li class="seccion fotoGrande">
 				<img src="img/fotoGrande.jpg" />
 			</li>
-			<li class="seccion blueSection nextButton" data-go-to-page="5">
+			<li class="seccion blueSection">
 				<div class="titulo">
 					<p>Evaluación</p>
 					<img class="icono" src="img/ico-objetivo.png" />

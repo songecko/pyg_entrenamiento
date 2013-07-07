@@ -35,11 +35,11 @@
 				<a class="btn_home" id="go_home" href="#"><i></i>Inicio</a>
 				<!-- menu -->
 				<ul>
-					<li><a id="Seccion01" href="informacion-de-pyg.html">Información de P&G </a></li>
-					<li><a id="Seccion02" href="mapa-por-distribuidor.html">Mapa por Distribuidor</a></li>
-					<li class="twolines"><a id="Seccion03" href="interaccion-distribuidor-changarro.html">Interacción P&G / Distribuidor / Changarro</a></li>
-					<li><a id="Seccion04" href="informacion-del-canal.html">Información del Canal</a></li>
-					<li><a id="Seccion05" href="objetivos.html">Objetivo</a></li>
+					<li class="nextButton" data-go-to-page="5">Información de P&G </li>
+					<li class="nextButton" data-go-to-page="15">Descripción del puesto</li>
+					<li class="nextButton twolines" data-go-to-page="20">Procedimiento básico de la visita</li>
+					<li class="nextButton" data-go-to-page="26">Selector de tiendas</li>
+					<li>Evaluación</li>
 				</ul>
 			</div>
 			<!--Menu Background-->
