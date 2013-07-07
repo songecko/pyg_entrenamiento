@@ -45,6 +45,11 @@ var Main = {
 				objeto.stop(true, true).fadeOut(function() { objeto.hide(); });
 			}	   
 		});
+	},
+	
+	selectPositionType: function(position)
+	{
+		Main.positionType = position;
 	}
 };
 

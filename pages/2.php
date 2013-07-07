@@ -3,31 +3,25 @@
 	<div class="SeccionPosicion content">
 		<p class="tituloSeccion">Elije tu Posición y comienza el Entrenamiento</p>
 		<ul>
-			<li class="posicion supervisor">
+			<li class="posicion supervisor nextButton" onclick="Main.selectPositionType('supervisor');">
 				<img src="img/foto-01.jpg"  />
 				<div class="titulo">
-					<a href="#" class="nextButton" onclick="alert('asdasd');">
-						<span>Supervisor</span>
-						<img src="img/bt-siguiente.png" class="nextPosicion" />
-					</a>
+					<p>Supervisor</p>
+					<img src="img/bt-siguiente.png" class="nextPosicion" />
 				</div>
 			</li>
-			<li class="posicion vendedorA">
+			<li class="posicion vendedorA nextButton" onclick="Main.selectPositionType('vendedorA');">
 				<img src="img/foto-01.jpg"  />
 				<div class="titulo">
-					<a href="#" class="nextButton">
-						<span>Vendedor A</span>
-						<img src="img/bt-siguiente.png" class="nextPosicion" />
-					</a>
+					<p>Vendedor A</p>
+					<img src="img/bt-siguiente.png" class="nextPosicion" />
 				</div>
 			</li>
-			<li class="posicion vendedorBC">
+			<li class="posicion vendedorBC nextButton" onclick="Main.selectPositionType('vendedorBC');">
 				<img src="img/foto-01.jpg"  />
 				<div class="titulo">
-					<a href="#" class="nextButton">
-						<span>Vendedor B/C</span>
-						<img src="img/bt-siguiente.png" class="nextPosicion" />
-					</a>
+					<p>Vendedor B/C</p>
+					<img src="img/bt-siguiente.png" class="nextPosicion" />
 				</div>
 			</li>
 		</ul>

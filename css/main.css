@@ -43,7 +43,7 @@ p { font-size: 20px;}
 li { list-style:none; }
 .tituloSeccion {text-align: left;padding:0px 0px 25px 23px;}
 .titulo {font-weight:300; font-size:22px;}
-.titulo span {padding: 39px 0px 0px 20px;text-align: left;}
+.titulo p {padding: 39px 0px 0px 20px;text-align: left;}
 .tituloTwoLines p {padding: 26px 0px 0px 20px;text-align: left;}
 .nextPosicion {position: relative;left: 111px;bottom: 31px;}
 .nextPosicionTwoLines {position: relative;left: 111px;bottom: 42px;
