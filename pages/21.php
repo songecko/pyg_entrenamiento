@@ -1,172 +1,122 @@
-<div class="pt-page pt-page-pbv-2 container-fluid greenSection">
-				<p class="pageTitleHolder">Categorias</p>
-				<div class="contenido nextButton">
-                <p>Detergentes </p>
-                    <div class=" row-fluid">
-                    	<div class="span3">
-                         <img src="http://placehold.it/111x200">
-                        </div>
-                        <div class="span3">
-                         <img src="http://placehold.it/111x200">
-                        </div>
-                        <div class="span3">
-                         <img src="http://placehold.it/111x200">
-                        </div>
-                        <div class="span3">
-                         <img src="http://placehold.it/111x200">
-                        </div>
+<div class="pt-page pt-page-categorias container-fluid greenSection">
+	<p class="pageTitleHolder">Distibución</p>
+	<div class="contenido">
+		<h2>CATEGORÍAS</h2>
+		<ul class="nav nav-tabs">
+  			<li class="active"><a href="#detergentes">Detergentes</a></li>
+ 	 		<li><a href="#suavizantes">Suavizantes</a></li>
+  			<li><a href="#lavatrastes">Lavatrastes</a></li>
+  			<li><a href="#papel">Papel</a></li>
+            <li><a href="#shampoos">Shampoos</a></li>
+            <li><a href="#jabones">Jabones</a></li>
+            <li><a href="#proteccionFemenina">Protección Femenina</a></li>
+            <li><a href="#cuidadoBucal">Cuidado Bucal</a></li>
+            <li><a href="#rasurado">Rasurado</a></li>
+            <li><a href="#desodorantes">Desodorantes</a></li>
+            <li><a href="#pilas">Pilas</a></li>
+            <li><a href="#salud">Salud</a></li>   
+       		<li><a href="#tintes">Tintes</a></li>
+            <li><a href="#aromatizantes">Aromatizantes</a></li>
+		</ul>
+		<div class="tab-content nextButton">
+  			<div class="tab-pane active" id="detergentes"> 
+            	<div class=" row-fluid">
+                	<div class="span12">
+                    	<img src="http://placehold.it/744x300">
                     </div>
-			</div>
-				<div class="contenido nextButton">
-                <p>Suavizantes </p>
-                    <div class=" row-fluid">
-                    	<div class="span12">
-                         <img src="http://placehold.it/744x300">
-                        </div>
+                </div>
+            </div>
+  			<div class="tab-pane" id="suavizantes">
+            	<div class=" row-fluid">
+                	<div class="span12">
+                    	<img src="http://placehold.it/744x300">
                     </div>
-			</div>
-				<div class="contenido nextButton">
-                <p>Lavatrastes  </p>
-                    <div class=" row-fluid">
-                    	<div class="span12">
-                         <img src="http://placehold.it/744x300">
-                        </div>
+                </div>
+            </div>
+  			<div class="tab-pane" id="lavatrastes">
+            	<div class=" row-fluid">
+                	<div class="span12">
+                    	<img src="http://placehold.it/744x300">
                     </div>
-                     </div>
-				<div class="contenido nextButton">
-                <p>Papel</p>
-                    <div class=" row-fluid">
-                    	<div class="span12">
-                         <img src="http://placehold.it/744x300">
-                        </div>
+                </div>
+            </div>
+  			<div class="tab-pane" id="papel">
+            	<div class=" row-fluid">
+                	<div class="span12">
+                    	<img src="http://placehold.it/744x300">
                     </div>
+                </div>
+            </div>
+            <div class="tab-pane active" id="shampoos">
+            	<div class=" row-fluid">
+                	<div class="span12">
+                    	<img src="http://placehold.it/744x300">
                     </div>
-				<div class="contenido nextButton">
-                <p>Shampoos</p>
-                    <div class=" row-fluid">
-                    	<div class="span3">
-                         <img src="http://placehold.it/111x200">
-                        </div>
-                        <div class="span3">
-                         <img src="http://placehold.it/111x200">
-                        </div>
-                        <div class="span3">
-                         <img src="http://placehold.it/111x200">
-                        </div>
-                        <div class="span3">
-                         <img src="http://placehold.it/111x200">
-                        </div>
+                </div>
+            </div>
+  			<div class="tab-pane" id="jabones">
+            	<div class=" row-fluid">
+                	<div class="span12">
+                    	<img src="http://placehold.it/744x300">
                     </div>
-                     </div>
-				<div class="contenido nextButton">
-                <p>Jabones </p>
-                    <div class=" row-fluid">
-                    	<div class="span3">
-                         <img src="http://placehold.it/111x200">
-                        </div>
-                        <div class="span3">
-                         <img src="http://placehold.it/111x200">
-                        </div>
-                        <div class="span3">
-                         <img src="http://placehold.it/111x200">
-                        </div>
-                        <div class="span3">
-                         <img src="http://placehold.it/111x200">
-                        </div>
+                </div>
+            </div>
+  			<div class="tab-pane" id="proteccionFemenina">
+            	<div class=" row-fluid">
+                	<div class="span12">
+                    	<img src="http://placehold.it/744x300">
                     </div>
+                </div>
+            </div>
+  			<div class="tab-pane" id="cuidadoBucal">
+            	<div class=" row-fluid">
+                	<div class="span12">
+                    	<img src="http://placehold.it/744x300">
                     </div>
-				<div class="contenido nextButton">
-                <p>Protección Femenina  </p>
-                    <div class=" row-fluid">
-                    	<div class="span6">
-                         <img src="http://placehold.it/111x200">
-                        </div>
-                        <div class="span6">
-                         <img src="http://placehold.it/111x200">
-                        </div>
-                        </div>
-                        </div>
-				<div class="contenido nextButton">
-                <p>Cuidado Bucal </p>
-                    <div class=" row-fluid">
-                    	<div class="span4">
-                         <img src="http://placehold.it/111x200">
-                        </div>
-                        <div class="span4">
-                         <img src="http://placehold.it/111x200">
-                        </div>
-                         <div class="span4">
-                         <img src="http://placehold.it/111x200">
-                        </div>
+                </div>
+            </div>
+            <div class="tab-pane active" id="rasurado">
+            	<div class=" row-fluid">
+                	<div class="span12">
+                    	<img src="http://placehold.it/744x300">
                     </div>
+                </div> 
+            </div>
+  			<div class="tab-pane" id="desodorantes">
+            	<div class=" row-fluid">
+                	<div class="span12">
+                    	<img src="http://placehold.it/744x300">
                     </div>
-				<div class="contenido nextButton">
-                <p>Rasurado </p>
-                    <div class=" row-fluid">
-                    	<div class="span3">
-                         <img src="http://placehold.it/111x200">
-                        </div>
-                        <div class="span3">
-                         <img src="http://placehold.it/111x200">
-                        </div>
-                         <div class="span3">
-                         <img src="http://placehold.it/111x200">
-                        </div>
-                        <div class="span3">
-                         <img src="http://placehold.it/111x200">
-                        </div>
+                </div>
+            </div>
+  			<div class="tab-pane" id="pilas">
+            	<div class=" row-fluid">
+                	<div class="span12">
+                    	<img src="http://placehold.it/744x300">
                     </div>
+                </div>
+            </div>
+  			<div class="tab-pane" id="salud">
+            	<div class=" row-fluid">
+                	<div class="span12">
+                    	<img src="http://placehold.it/744x300">
                     </div>
-				<div class="contenido nextButton">
-                <p>Desodorantes </p>
-                    <div class=" row-fluid">
-                    	<div class="span3">
-                         <img src="http://placehold.it/111x200">
-                        </div>
-                        <div class="span3">
-                         <img src="http://placehold.it/111x200">
-                        </div>
-                         <div class="span3">
-                         <img src="http://placehold.it/111x200">
-                        </div>
-                        <div class="span3">
-                         <img src="http://placehold.it/111x200">
-                        </div>
-                    </div>
-			</div>
-				<div class="contenido nextButton">
-                <p>Pilas  </p>
-                    <div class=" row-fluid">
-                    	<div class="span12">
-                         <img src="http://placehold.it/744x300">
-                        </div>
-                    </div>
-			</div>
-				<div class="contenido nextButton">
-                <p>Salud</p>
-                    <div class=" row-fluid">
-                    	<div class="span6">
-                         <img src="http://placehold.it/111x200">
-                        </div>
-                        <div class="span6">
-                         <img src="http://placehold.it/111x200">
-                        </div>
-                    </div>
-			</div>
-				<div class="contenido nextButton">
-                <p>Tintes </p>
-                    <div class=" row-fluid">
-                    	<div class="span12">
-                         <img src="http://placehold.it/744x300">
-                        </div>
-                    </div>
-			</div>
-				<div class="contenido nextButton">
-                <p>Aromatizantes </p>
-                    <div class=" row-fluid">
-                    	<div class="span12">
-                         <img src="http://placehold.it/744x300">
-                        </div>
-                    </div>
-			</div>
+                </div>   
+            </div>
+            <div class="tab-pane" id="tintes">
+            <div class=" row-fluid">
+                <div class="span12">
+                    <img src="http://placehold.it/744x300">
+                </div>
+            </div>   
+        </div>
+        <div class="tab-pane" id="aromatizantes">
+            <div class=" row-fluid">
+                <div class="span12">
+                    <img src="http://placehold.it/744x300">
+                </div>
+            </div>   
+        </div>
 		</div>
+	</div>
+</div>
