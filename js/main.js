@@ -49,7 +49,50 @@ var Main = {
 	
 	selectPositionType: function(position)
 	{
+		$('.pt-page-dp .posicion').removeClass(Main.positionType);
+		
 		Main.positionType = position;
+		
+		//Descripcion del puesto (page 15)
+		$('.pt-page-dp .posicion').addClass(Main.positionType);
+		$('.pt-page-dp .posicion .titulo p').html(Main.getNameOfCurrentPosition());
+		$('.pt-page-dp .nextButton').data('goToPage', Main.getDpGoToPage());
+	},
+	
+	getNameOfCurrentPosition: function()
+	{
+		switch(Main.positionType)
+		{
+			case 'supervisor':
+				return 'Supervisor';
+				break;
+			case 'vendedorA':
+				return 'Vendedor A';
+				break;
+			case 'vendedorBC':
+				return 'Vendedor B/C';
+				break;
+		}
+		
+		return '';
+	},
+	
+	getDpGoToPage: function()
+	{
+		switch(Main.positionType)
+		{
+			case 'supervisor':
+				return 16;
+				break;
+			case 'vendedorA':
+				return 64;
+				break;
+			case 'vendedorBC':
+				return 69;
+				break;
+		}
+		
+		return 16;
 	}
 };
 
