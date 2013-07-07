@@ -6,12 +6,12 @@
                     <ul>
                     	<li class="posicion supervisor">
                         	<img src="img/foto-01.jpg"  />
-                            <div class="tituloTwoLines greenSection"><a href="supervisor-procedimiento-basico-de-visita.html"><p class="textoDestacado">Procedimiento<br />
+                            <div class="tituloTwoLines greenSection"><a href="#"><p class="textoDestacado">Procedimiento<br />
  básico de visita</p><img src="img/bt-siguiente.png" class="nextPosicionTwoLines" /></a></div>
                         </li>
                         <li class="posicion supervisor">
                         	<img src="img/foto-01.jpg"  />
-                            <div class="tituloTwoLines greenSection"><a href="supervisor-informacion-del-punto-de-venta.html"><p class="textoDestacado">Información del <br />
+                            <div class="tituloTwoLines greenSection"><a class="nextButton" data-go-to-page="26" href="#"><p class="textoDestacado">Información del <br />
 punto de venta.</p><img src="img/bt-siguiente.png" class="nextPosicionTwoLines" /></a></div>
                         </li>
                     </ul>
