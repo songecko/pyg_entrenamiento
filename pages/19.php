@@ -4,15 +4,15 @@
 				<div class="SeccionPosicion content">
 					<p class="tituloSeccion">Comienza el Entrenamiento</p>
                     <ul>
-                    	<li class="posicion supervisor">
+                    	<li class="posicion supervisor nextButton">
                         	<img src="img/foto-01.jpg"  />
-                            <div class="tituloTwoLines greenSection"><a href="#"><p class="textoDestacado">Procedimiento<br />
- básico de visita</p><img src="img/bt-siguiente.png" class="nextPosicionTwoLines" /></a></div>
+                            <div class="titulo tituloTwoLines"><p class="textoDestacado">Procedimiento<br />
+ básico de visita</p><img src="img/bt-siguiente.png" class="nextPosicionTwoLines" /></div>
                         </li>
-                        <li class="posicion supervisor">
+                        <li class="posicion supervisor nextButton" data-go-to-page="26">
                         	<img src="img/foto-01.jpg"  />
-                            <div class="tituloTwoLines greenSection"><a class="nextButton" data-go-to-page="26" href="#"><p class="textoDestacado">Información del <br />
-punto de venta.</p><img src="img/bt-siguiente.png" class="nextPosicionTwoLines" /></a></div>
+                            <div class="titulo tituloTwoLines"><p class="textoDestacado">Información del <br />
+punto de venta.</p><img src="img/bt-siguiente.png" class="nextPosicionTwoLines" /></div>
                         </li>
                     </ul>
 				</div>
