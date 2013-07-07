@@ -1,0 +1,101 @@
+html, body {height:100%; margin:0; padding:0;font-family: 'Open Sans'; font-weight: 400; color: #ffffff;}
+.container-fluid {padding: 0px;}
+.logoPrincipal{height: 35%;}
+.inicio{height: 45%; padding-top: 60px;}
+#pageTitle {
+	z-index: 999;
+}
+.pageTitleHolder { display: none; }
+.pt-perspective {position: relative;width: 100%;height: 100%;perspective: 1200px;transform-style: preserve-3d;}
+.pt-page {width: 100%; height: 100%; position: absolute; top: 0; left: 0; visibility: hidden; overflow: hidden; backface-visibility: hidden; transform: translate3d(0, 0, 0); -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
+.pt-page-current, .no-js .pt-page {visibility: visible;}
+.no-js body {overflow: auto;}
+.pt-page-ontop {z-index: 999;}
+.pt-page-1{background-image: url(../img/fondo.jpg);}
+.btn, .btn:hover{width: 228px;padding: 10px 0px;font-size: 20px; color: #ffffff; line-height: 25px;}
+.greenButton, .greenButton:hover {background: #7aae1f; border: 3px solid #40684f;}
+.orangeButton, .orangeButton:hover {background: #ee5325; border: 3px solid #facbbd;}
+.footer {bottom: 0; position: fixed; width: 100%; z-index: 50000; height: 20%;}
+.footer img { padding-top: 60px; }
+.background { z-index: -999; position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+.logoPrincipal img {height: 100%;}
+.contenido h2 { color:#ee5325; font-size:30px;}
+.contenido p { color:#565656; font-size:14px;}
+.contenido .textoDestacado { color:#565656; font-size:16px; font-weight:bold;}
+h2 { font-weight:300; font-size:40px;}
+h3 { font-size: 26px; margin-bottom: 30px; font-weight:400;}
+p { font-size: 20px;}
+.contenido { background:#FFFFFF; padding: 40px; height: 405px; overflow: auto;}
+.next {position: relative; left: 62px; top: 0px;}
+.posicion {width: 273px;float: left; padding-right:10px; }
+.seccion {width: 274px; height:163px;float: left; margin: 5px;box-shadow: 0 2px 5px #0f2535; }
+.posicion .titulo {}
+.supervisor .titulo { background: #6aa730; height: 93px;}
+.vendedorA .titulo { background: #8e499c; height: 93px;}
+.vendedorBC .titulo { background: #ee5326; height: 93px;}
+.greenSection { background: #6aa730; }
+.orangeSection { background: #ee5325; }
+.redSection { background: #c3213f; }
+.violetSection { background: #8e499c; }
+.blueSection { background: #024f95;}
+.seccion .titulo { background-position-x: 22px; background-position-y: 102px; height: 163px; }
+.fotoGrande { width: 558px; }
+li { list-style:none; }
+.tituloSeccion {text-align: left;padding:0px 0px 25px 23px;}
+.titulo {font-weight:300; font-size:22px;}
+.titulo p {padding: 39px 0px 0px 20px;text-align: left;}
+.tituloTwoLines p {padding: 26px 0px 0px 20px;text-align: left;}
+.nextPosicion {position: relative;left: 111px;bottom: 31px;}
+.nextPosicionTwoLines {position: relative;left: 111px;bottom: 42px;
+}
+.SeccionPosicion { margin:160px 67px;}
+.contenido{ margin: 130px 92px;}
+.content{ margin:100px 56px;}
+.btMenu {position: absolute;left: 0px;top: 0px;}
+.btLogoMarca {position: absolute; float:left; right: 0px;top: 0px; z-index:99;}
+.tituloSupervisor {position: absolute;left: 110px;top: 31px;  z-index: 99;}
+.menuSuperior p {position: absolute;top: 35px;left: 144px;}
+[class^="icon-"], [class*=" icon-"] {
+width: 31px;
+height: 28px;}
+.icon-next { background-position: 20px;float: right;background: url(../img/bt-siguiente.png) no-repeat;padding-right: 10px;}
+.icono {float: left;padding: 30px 0px 0px 16px;}
+.iconoEsp {float: left;padding: 9px 0px 0px 16px;}
+.paginador {
+position: absolute;
+bottom: 20px;
+right: 433px;
+z-index: 5;
+margin: 0;
+list-style: none;
+text-align:center;}
+.paginador li {
+display: block;
+float: left;
+width: 10px;
+height: 10px;
+margin-left: 5px;
+text-indent: -999px;
+background-color: #ccc;
+background-color: rgba(255,255,255,0.25);
+border-radius: 5px;}
+.paginador .active {
+background-color: #fff;}
+.posicion a,.seccion a {color: #ffffff;
+text-decoration: none;}
+/***************   MENU */
+a.btn_menu { background:url(../img/btn_menu.png) no-repeat; display:block; width:93px; height:91px; position:absolute; float:left; z-index:5; cursor:pointer;}
+.overlay { background:url(../img/overlay_1.png); width:100%; height:100%; display:block; position:absolute; float:left; z-index:100;}
+
+.menu { width:178px; height: 603px; background:url(../img/bg_menu.gif) repeat-y; padding:20px 30px 30px 30px; position:absolute; float:left; z-index:1000; box-shadow:0 0 20px #000}
+
+a.close_menu { background:url(../img/btn_close_menu.png) no-repeat; width:36px; height:26px; display:block; position:absolute; float:left; margin-top:-60px;}
+
+a.btn_home { display:block; line-height:46px; border:solid 1px #32383c; color:#989898; margin-bottom:50px; text-decoration:none; padding-left:38px;}
+a.btn_home:hover { color:#222; background:#fff; border:solid 1px #fff;}
+a.btn_home i { background: url(../img/ico_btn_home.png) no-repeat top; width:14px; height:9px; display:block; position:absolute; float:left; margin:19px 0 0 -27px;}
+a.btn_home:hover i { background-position:bottom;}
+.menu ul { margin-left: 0px;}
+.menu ul li a {display:block;text-align:right;color:#989898;text-decoration:none;font-size:0.9em;line-height:60px;background:url(../img/li_bg.png) repeat-x bottom;}
+.menu ul li a:hover , .menu ul li a:focus { color:#fff;}
+.menu ul .twolines a {line-height: 30px;}
