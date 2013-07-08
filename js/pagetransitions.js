@@ -26,7 +26,7 @@ var PageTransitions = (function() {
 		$pages.each( function() {
 			var $page = $( this );
 			$page.data( 'originalClassList', $page.attr( 'class' ) );
-		} );
+		});
 
 		setEventListeners();
 		
@@ -66,6 +66,15 @@ var PageTransitions = (function() {
 		{
 			prevPage(2);
 			e.preventDefault();
+		});
+		
+		$('body').on('swipeleft', function()
+		{
+			var nextButton = $('.pt-page-current .nextButton');
+			if(nextButton.length == 1)
+			{
+				nextButton.click();
+			}
 		});
 	}
 	

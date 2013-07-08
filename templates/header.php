@@ -14,7 +14,8 @@
 		<link href="css/main.css" rel="stylesheet" media="screen">
 		
 		<!-- JS -->
-		<script src="http://code.jquery.com/jquery.js"></script>
+		<script src="js/jquery-1.10.2.min.js"></script>
+		<script src="js/jquery.mobile.custom.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
 		<script src="js/modernizr.custom.js"></script>
 		<script src="js/main.js"></script>
