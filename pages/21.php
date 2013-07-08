@@ -1,4 +1,4 @@
-<div class="pt-page pt-page-categorias container-fluid greenSection">
+<div class="pt-page pt-page-categorias container-fluid redSection">
 	<p class="pageTitleHolder">Distibución</p>
 	<div class="contenido">
 		<h2>CATEGORÍAS</h2>

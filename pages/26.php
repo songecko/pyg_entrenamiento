@@ -1,5 +1,4 @@
-<div class="pt-page pt-page-ett container-fluid text-center">
-	<img src="img/fondo_2.jpg" class="background" />
+<div class="pt-page pt-page-ett container-fluid text-center violetSection">
 	<div class="SeccionPosicion content">
 		<p class="tituloSeccion">Elije el tipo de tienda</p>
 		<ul>

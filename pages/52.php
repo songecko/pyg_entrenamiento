@@ -1,4 +1,4 @@
-<div class="pt-page pt-page-vm-8  container-fluid greenSection">
+<div class="pt-page pt-page-vm-8  container-fluid violetSection">
 				<p class="pageTitleHolder">Visibilidad</p>
 				<div class="contenido nextButton">
 					<h2>ABAQUEL RASURADO</h2> 

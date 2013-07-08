@@ -1,4 +1,4 @@
-<div class="pt-page pt-page-vta-8  container-fluid greenSection">
+<div class="pt-page pt-page-vta-8  container-fluid violetSection">
 				<p class="pageTitleHolder">Mercaderismo</p>
 				<div class="contenido nextButton">
 					<h2>AFICHES Y POP</h2>

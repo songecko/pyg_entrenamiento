@@ -1,4 +1,4 @@
-<div class="pt-page pt-page-vm-15 container-fluid greenSection">
+<div class="pt-page pt-page-vm-15 container-fluid violetSection">
 				<p class="pageTitleHolder">Mercaderismo</p>
 				<div class="contenido nextButton">
 					<h2>EXHIBIDORES</h2>

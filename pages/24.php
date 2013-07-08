@@ -1,4 +1,4 @@
-<div class="pt-page pt-page-pbv-5 container-fluid greenSection">
+<div class="pt-page pt-page-pbv-5 container-fluid redSection">
 				<p class="pageTitleHolder">Protocolo Externo</p>
 				<div class="contenido nextButton">
 					<h2>EL ÁLBUM DE DON PEPE</h2>
