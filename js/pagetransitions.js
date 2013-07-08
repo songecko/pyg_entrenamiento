@@ -52,7 +52,7 @@ var PageTransitions = (function() {
 			
 			if(pageToGo == undefined)
 			{
-				nextPage(1);
+				nextPage(transitionEffect);
 			}else {
 				goToPage(pageToGo-1, transitionEffect);
 			}

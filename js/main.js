@@ -4,15 +4,6 @@ var Main = {
 	init: function()
 	{
 		Main.initMenu();
-		
-		$('#productos a:first').click(function(e)
-		{
-			$(this).tab('show');
-			e.preventDefault();
-		});
-		
-		console.log($('.nav-tabs a:first-child'));
-		$('.nav-tabs a:first').tab('show');
 	},
 	
 	initMenu: function()
@@ -58,29 +49,29 @@ var Main = {
 	
 	selectPositionType: function(position)
 	{
-		var oldColorClass = Main.getColorNameOfCurrentPosition()+'Section';
+		/*var oldColorClass = Main.getColorNameOfCurrentPosition()+'Section';
 		$('.pt-page-dp .posicion').removeClass(Main.positionType);
 		$('.pt-page-ce .posicion').removeClass(Main.positionType);
 		$('.pt-page-ett .posicion').removeClass(Main.positionType);
-		
+		*/
 		Main.positionType = position;
 		
 		//Descripcion del puesto (page 15)
-		$('.pt-page-dp .posicion').addClass(Main.positionType);
+		//$('.pt-page-dp .posicion').addClass(Main.positionType);
 		$('.pt-page-dp .posicion .titulo p').html(Main.getNameOfCurrentPosition());
 		$('.pt-page-dp .nextButton').data('goToPage', Main.getDpGoToPage());
 		
 		//Comienza el entrenamiento (page 19)
-		$('.pt-page-ce .posicion').addClass(Main.positionType);
+		//$('.pt-page-ce .posicion').addClass(Main.positionType);
 		$('.pt-page-ce .pageTitleHolder').html(Main.getNameOfCurrentPosition());
 		
 		//Elije tipo de tienda (page 26)
-		$('.pt-page-ett .posicion').addClass(Main.positionType);
+		//$('.pt-page-ett .posicion').addClass(Main.positionType);
 		Main.showEttLinks();
 		
 		
 		//Change the background colors of sections
-		var colorClass = Main.getColorNameOfCurrentPosition()+'Section';
+		/*var colorClass = Main.getColorNameOfCurrentPosition()+'Section';
 		var sectionsToChange = [{pageId: 'pbv', max: 6}, {pageId: 'vta', max: 9},{pageId: 'vtbc', max: 8},{pageId: 'vm', max: 18}];
 		$.each(sectionsToChange, function(index, section) 
 		{
@@ -89,7 +80,7 @@ var Main = {
 				$('.pt-page-'+section.pageId+'-'+i).removeClass(oldColorClass).addClass(colorClass);
 			}
 		});
-		$('.pt-page-productos').removeClass(oldColorClass).addClass(colorClass);
+		$('.pt-page-productos').removeClass(oldColorClass).addClass(colorClass);*/
 	},
 	
 	getNameOfCurrentPosition: function()

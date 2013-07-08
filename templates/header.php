@@ -24,15 +24,17 @@
 		<div class="menuSuperior">
 			<div class="left">
 				<a class="btn_menu" id="OpenMenu"><img src="img/ico-menu.png" class="btMenu"  /></a>
-				<img src="img/bt-siguiente-der.png" class="tituloSupervisor"  />
-				<p id="pageTitle"></p>
+				<div class="nextButton" data-go-to-page="4" data-transition-effect="2">
+					<img src="img/bt-siguiente-der.png" class="tituloSupervisor"  />
+					<p id="pageTitle"></p>
+				</div>
 			</div>
 			<img src="img/ico-logo-donPepe.png" class="btLogoMarca"  />
 			<div id="PanelMenu" class="menu" style=" margin-left:-258px; display:none;">
 				<!-- cerrar menu -->
 				<a class="close_menu" id="CloseMenu"></a>
 				<!-- ir a la pantalla principal -->
-				<a class="btn_home" id="go_home" href="#" data-go-to-page="4"><i></i>Inicio</a>
+				<a class="btn_home nextButton" id="go_home" href="#" data-go-to-page="4"><i></i>Inicio</a>
 				<!-- menu -->
 				<ul>
 					<li class="nextButton" data-go-to-page="5">Información de P&G </li>
