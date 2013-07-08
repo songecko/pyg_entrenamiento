@@ -52,8 +52,11 @@ var PageTransitions = (function() {
 			
 			if(pageToGo == undefined)
 			{
-				nextPage(transitionEffect);
-			}else {
+				pageToGo = current+2;
+			}
+			
+			if(pageToGo < pagesCount && pageToGo-1 != current) 
+			{
 				goToPage(pageToGo-1, transitionEffect);
 			}
 			e.preventDefault();

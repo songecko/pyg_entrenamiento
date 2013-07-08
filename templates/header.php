@@ -41,7 +41,7 @@
 					<li class="nextButton" data-go-to-page="15">Descripción del puesto</li>
 					<li class="nextButton twolines" data-go-to-page="20">Procedimiento básico de la visita</li>
 					<li class="nextButton" data-go-to-page="26">Selector de tiendas</li>
-					<li>Evaluación</li>
+					<li onclick="window.open('http://google.com.ar', '_blank');">Evaluación</li>
 				</ul>
 			</div>
 			<!--Menu Background-->

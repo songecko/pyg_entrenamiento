@@ -45,7 +45,7 @@
                     </div>
                 </div>
             </div>
-            <div class="tab-pane active" id="shampoos">
+            <div class="tab-pane" id="shampoos">
             	<div class=" row-fluid">
                 	<div class="span12">
                     	<img src="http://placehold.it/744x300">
@@ -73,7 +73,7 @@
                     </div>
                 </div>
             </div>
-            <div class="tab-pane active" id="rasurado">
+            <div class="tab-pane" id="rasurado">
             	<div class=" row-fluid">
                 	<div class="span12">
                     	<img src="http://placehold.it/744x300">
@@ -104,16 +104,17 @@
 		</div>
 	</div>
     <div class="container-fluid">
-                      <ol class="paginador">
-    					<li data-target="#myCarousel" data-slide-to="0"></li>
-   						<li data-target="#myCarousel" data-slide-to="1"  class="active"  ></li>
- 					  </ol>
-				    </div>
+		<ol class="paginador">
+			<li data-target="#myCarousel" data-slide-to="0"></li>
+			<li data-target="#myCarousel" data-slide-to="1" class="active"></li>
+		</ol>
+	</div>
 	<script type="text/javascript">
 	$('#productosTab a').click(function(e)
 	{
 		$(this).tab('show');
 		e.preventDefault();			
 	});
+	$('#productosTab a:first').tab('show');
 	</script>
 </div>
