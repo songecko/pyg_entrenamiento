@@ -1,4 +1,4 @@
-<div class="pt-page pt-page-s-1 container-fluid greenSection">
+<div class="pt-page pt-page-s-1 container-fluid  orangeSection">
 				<p class="pageTitleHolder">Misión y Responsabilidades</p>
 				<audio preload="auto"><source src="audio/05.mp3" type="audio/mpeg" /></audio>
 				<div class="contenido nextButton">

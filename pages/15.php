@@ -1,5 +1,4 @@
-<div class="pt-page pt-page-dp container-fluid text-center">				
-	<img src="img/fondo_2.jpg" class="background" />
+<div class="pt-page pt-page-dp container-fluid text-center orangeSection">
 	<div class="SeccionPosicion content">
 		<p class="tituloSeccion">Descripción del Puesto</p>
 		<ul>
