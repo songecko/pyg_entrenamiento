@@ -20,12 +20,14 @@ html, body {height:100%; margin:0; padding:0;font-family: 'Open Sans'; font-weig
 .background { z-index: -999; position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
 .logoPrincipal img {height: 100%;}
 .contenido h2 { color:#ee5325; font-size:30px;}
-.contenido p { color:#565656; font-size:14px;}
+.contenido p { color:#565656; font-size:13px;}
 .contenido .textoDestacado { color:#565656; font-size:16px; font-weight:bold;}
 h2 { font-weight:300; font-size:40px;}
 h3 { font-size: 26px; margin-bottom: 30px; font-weight:400;}
 p { font-size: 20px;}
-.contenido { background:#FFFFFF; padding: 40px; height: 405px; overflow: auto;}
+.contenido { background:#FFFFFF; padding: 20px; height: 485px; overflow: auto;}
+.contenido2 {}
+.contenido3 { background:#FFFFFF; padding: 20px; height: 485px;}
 .next {position: relative; left: 62px; top: 0px;}
 .posicion {width: 273px;float: left; padding-right:10px; }
 .seccion {width: 274px; height:163px;float: left; margin: 5px;box-shadow: 0 2px 5px #0f2535; }
@@ -54,7 +56,7 @@ li { list-style:none; }
 .nextPosicionTwoLines {position: relative;left: 111px;bottom: 42px;
 }
 .SeccionPosicion /*{ margin:160px 67px;}*/{padding-top: 85px;}
-.contenido{ margin: 130px 92px;}
+.contenido , .contenido2 , .contenido3{ margin: 130px 92px;}
 .content{ margin:100px 56px;}
 .pt-page-ce .content{ margin:100px 200px;}
 .btMenu {position: absolute;left: 0px;top: 0px;}
@@ -109,3 +111,15 @@ a.btn_home:hover i { background-position:bottom;}
 .menu ul { margin-left: 0px;}
 .menu ul li{display:block;text-align:right;color:#989898;text-decoration:none;font-size:0.9em;line-height:60px;background:url(../img/li_bg.png) repeat-x bottom;}
 .menu ul .twolines{line-height: 30px;}
+
+.bg_historia { background:#fff url(../img/slides/historia.png) no-repeat center right; padding-right:300px;}
+
+table { width:100%;}
+table th { background:#ee5325; color:#fff; font-weight:normal; padding:10px 0; border-bottom:solid 2px #fff;}
+table td { color:#999; font-size:11px; background:#f9f9f9; border-bottom:solid 2px #fff; padding:10px; vertical-align: top; line-height:14px;}
+table tr.odd td { background:#222; font-size:13px; color:#fff; text-align:center;}
+table .add { background:#fff !important;}
+table.indicadores th { text-align:left; padding-left:10px;}
+table.indicadores td { border-bottom:solid 1px #f1f1f1; padding:12px 10px; vertical-align:middle;}
+
+.contenido ul li { color:#666; font-size:13px; margin-bottom:10px;}

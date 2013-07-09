@@ -5,27 +5,27 @@
                     <div class=" row-fluid">
                     	<div class="span2">
                         <p>Protección femenina </p>
-                        <img src="http://placehold.it/111x200">
+                        <img src="img/slides/marcas e innovacion/mei07.jpg">
                         </div>
                         <div class="span2">
                         <p>Cuidado oral </p><br />
-                        <img src="http://placehold.it/111x200">
+                       <img src="img/slides/marcas e innovacion/mei08.jpg">
                         </div>
                         <div class="span2">
                         <p>Rastrillos  </p><br />
-                        <img src="http://placehold.it/111x200">
+                        <img src="img/slides/marcas e innovacion/mei09.jpg">
                         </div>
                         <div class="span2">
                         <p>Desodorantes  </p><br />
-                        <img src="http://placehold.it/111x200">
+                        <img src="img/slides/marcas e innovacion/mei10.jpg">
                         </div>
                         <div class="span2">
                         <p>Baterías </p><br />
-                        <img src="http://placehold.it/111x200">
+                        <img src="img/slides/marcas e innovacion/mei11.jpg">
                         </div>
                         <div class="span2">
                         <p>Salud</p><br />
-                        <img src="http://placehold.it/111x200">
+                       <img src="img/slides/marcas e innovacion/mei12.jpg">
                         </div>
                     </div>
                      <div class="container-fluid">

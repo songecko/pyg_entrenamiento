@@ -3,21 +3,21 @@
 		<p class="tituloSeccion">Elije el tipo de tienda</p>
 		<ul>
 			<li class="posicion supervisor tiendaA nextButton">
-				<img src="img/foto-01.jpg"  />
+				<img src="img/slides/tiendas/tiendaA.jpg"  />
 				<div class="titulo">
 					<p class="textoDestacado">Visita tienda A</p>
 					<img src="img/bt-siguiente.png" class="nextPosicion" />
 				</div>
 			</li>
-			<li class="posicion supervisor tiendaBC nextButton" data-go-to-page="36">
-				<img src="img/foto-01.jpg"  />
+			<li class="posicion vendedorA tiendaBC nextButton" data-go-to-page="36">
+				<img src="img/slides/tiendas/tiendaBC.jpg"  />
 				<div class="titulo">
 					<p class="textoDestacado">Visita tienda B/C</p>
 					<img src="img/bt-siguiente.png" class="nextPosicion" />
 				</div>
 			</li>
-			<li class="posicion supervisor tiendaM nextButton" data-go-to-page="44">
-				<img src="img/foto-01.jpg"  />
+			<li class="posicion vendedorBC tiendaM nextButton" data-go-to-page="44">
+				<img src="img/slides/tiendas/minisuper.jpg"  />
 				<div class="titulo">
 					<p class="textoDestacado">Visita Minisúper</p>
 					<img src="img/bt-siguiente.png" class="nextPosicion" />

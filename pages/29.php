@@ -1,6 +1,6 @@
 <div class="pt-page pt-page-productos container-fluid violetSection">
 	<p class="pageTitleHolder">Distibución</p>
-	<div class="contenido">
+	<div class="contenido3">
 		<h2>PRODUCTOS</h2>
 		<ul class="nav nav-tabs" id="productosTab">
   			<li class="active"><a href="#detergentes">Detergentes</a></li>

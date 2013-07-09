@@ -4,21 +4,21 @@
 		<p class="tituloSeccion">Elije tu Posición y comienza el Entrenamiento</p>
 		<ul>
 			<li class="posicion supervisor nextButton" data-transition-effect="33" onclick="Main.selectPositionType('supervisor');">
-				<img src="img/foto-01.jpg"  />
+				<img src="img/slides/puesto1.jpg" />
 				<div class="titulo">
-					<p>Supervisor</p>
+				  <p>Supervisor</p>
 					<img src="img/bt-siguiente.png" class="nextPosicion" />
 				</div>
 			</li>
 			<li class="posicion vendedorA nextButton" data-transition-effect="33" onclick="Main.selectPositionType('vendedorA');">
-				<img src="img/foto-01.jpg"  />
+				<img src="img/slides/puesto2.jpg" />
 				<div class="titulo">
 					<p>Vendedor A</p>
 					<img src="img/bt-siguiente.png" class="nextPosicion" />
 				</div>
 			</li>
 			<li class="posicion vendedorBC nextButton" data-transition-effect="33" onclick="Main.selectPositionType('vendedorBC');">
-				<img src="img/foto-01.jpg"  />
+				<img src="img/slides/puesto3.jpg" />
 				<div class="titulo">
 					<p>Vendedor B/C</p>
 					<img src="img/bt-siguiente.png" class="nextPosicion" />

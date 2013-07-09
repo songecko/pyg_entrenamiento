@@ -55,7 +55,7 @@ var PageTransitions = (function() {
 				pageToGo = current+2;
 			}
 			
-			if(pageToGo < pagesCount && pageToGo-1 != current) 
+			if(pageToGo <= pagesCount && pageToGo-1 != current) 
 			{
 				goToPage(pageToGo-1, transitionEffect);
 			}
@@ -436,9 +436,14 @@ var PageTransitions = (function() {
 	function stopSoundOfPage(page)
 	{	
 		var audio = page.children('audio').get(0);
+		var video = page.children('video').get(0);
 		if(audio)
 		{
 			audio.pause();
+		}				
+		if(video)
+		{
+			video.pause();
 		}		
 	}
 	

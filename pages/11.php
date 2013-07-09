@@ -1,7 +1,7 @@
 <div class="pt-page pt-page-i-7 container-fluid greenSection">
 				<p class="pageTitleHolder">Interacción P&G / Distribuidor / Changarro</p>
-				<div class="contenido nextButton">
-					<img src="http://placehold.it/744x400">
+				<div class="contenido2 nextButton">
+					<img src="img/slides/interaccion.png">
                         </div>
                      <div class="container-fluid">
                       <ol class="paginador">
