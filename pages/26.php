@@ -1,6 +1,8 @@
 <div class="pt-page pt-page-ett container-fluid text-center violetSection">
-	<div class="SeccionPosicion content">
+	<div class="prevButton" data-go-to-page="4" data-transition-effect="29"></div>
+	<div class="SeccionPosicion content"><audio preload="auto"><source src="Sound/tienda.mp3" type="audio/mpeg" /></audio>
 		<p class="tituloSeccion">Elije el tipo de tienda</p>
+        
 		<ul>
 			<li class="posicion supervisor tiendaA nextButton">
 				<img src="img/slides/tiendas/tiendaA.jpg"  />

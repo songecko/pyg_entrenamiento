@@ -62,9 +62,21 @@ var PageTransitions = (function() {
 			e.preventDefault();
 		});
 		
-		$('.backButton').click(function(e)
+		$('.prevButton').click(function(e)
 		{
-			prevPage(2);
+			var pageToGo = $(this).data('goToPage');
+			var transitionEffect = $(this).data('transitionEffect');
+			if(transitionEffect == undefined) transitionEffect = 2;				
+			
+			if(pageToGo == undefined)
+			{
+				pageToGo = current;
+			}
+			
+			if(pageToGo >= 0) 
+			{
+				goToPage(pageToGo-1, transitionEffect);
+			}
 			e.preventDefault();
 		});
 		
@@ -74,6 +86,18 @@ var PageTransitions = (function() {
 			if(nextButton.length == 1)
 			{
 				nextButton.click();
+			}
+		});
+		
+		$('body').on('swiperight', function()
+		{
+			var prevButton = $('.pt-page-current .prevButton');
+			if(prevButton.length == 1)
+			{
+				prevButton.click();
+			}else if(prevButton.length == 0) 
+			{
+				prevPage(2);
 			}
 		});
 	}
@@ -420,6 +444,10 @@ var PageTransitions = (function() {
 		{
 			$('.menuSuperior .left').show();
 			$('.menuSuperior .btLogoMarca').show();
+		}else
+		{
+			$('.menuSuperior .left').hide();
+			$('.menuSuperior .btLogoMarca').hide();
 		}
 		
 		endCurrPage = false;

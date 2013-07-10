@@ -1,5 +1,6 @@
 <div class="pt-page pt-page-3 container-fluid">	
-	<audio preload="auto"><source src="audio/02_SISTEMA DE ENTRENAMIENTO.mp3" type="audio/mpeg" /></audio>
+	<audio preload="auto"><source src="Sound/entrenamiento.mp3" type="audio/mpeg" /></audio>
+	<div class="prevButton" data-transition-effect="32"></div>
 	<div class="contenido">
 		<h2>SISTEMA DE ENTRENAMIENTO PARA DISTRIBUIDORES</h2>
 		<p>En los próximos minutos vas a recibir una inducción completa de todo lo que debes hacer en tu día a día.</p>

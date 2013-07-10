@@ -1,6 +1,7 @@
 <div class="pt-page pt-page-vta-9 container-fluid violetSection">
 	<p class="pageTitleHolder">Mercaderismo</p>
-	<div class="contenido nextButton text-center" data-go-to-page="4">
+    <audio preload="auto"><source src="Sound/iniciativas.mp3" type="audio/mpeg" /></audio>
+	<div class="contenido nextButton text-center" data-go-to-page="26">
 					<h2>Para conocer las iniciativas visitá la siguiente página:</h2>
                     <p>http://distribuidorportal.pg.com</p>
 			    </div>

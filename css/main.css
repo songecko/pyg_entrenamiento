@@ -123,3 +123,4 @@ table.indicadores th { text-align:left; padding-left:10px;}
 table.indicadores td { border-bottom:solid 1px #f1f1f1; padding:12px 10px; vertical-align:middle;}
 
 .contenido ul li { color:#666; font-size:13px; margin-bottom:10px;}
+.prevButton {display:none;}

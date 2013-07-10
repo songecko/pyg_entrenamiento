@@ -1,5 +1,6 @@
 <div class="pt-page pt-page-i-7 container-fluid greenSection">
 				<p class="pageTitleHolder">Interacción P&G / Distribuidor / Changarro</p>
+                <audio preload="auto"><source src="Sound/interaccion.mp3" type="audio/mpeg" /></audio>
 				<div class="contenido2 nextButton">
 					<img src="img/slides/interaccion.png">
                         </div>

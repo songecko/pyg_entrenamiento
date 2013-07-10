@@ -1,12 +1,11 @@
 <div class="pt-page pt-page-vm-11 container-fluid violetSection">
 				<p class="pageTitleHolder">Visibilidad</p>
 				<div class="contenido nextButton">
-					<h2>ANAQUEL PROTECCIÓN FEMENINA</h2> 
-                    <p class="text-center">50%  de Participación de Anaquel en Cepillo Dental</p>
-                    <p class="text-center">25% a 30%  de Participación de Anaquel en Pasta dental</p>
-                      <div class=" row-fluid">
-                    	<div class="span12">
-                         <img src="http://placehold.it/744x300">
+					<h2>ANAQUEL CUIDADO BUCAL</h2> 
+                   
+                      <div class="row-fluid">
+                    	<div style="text-align:center">
+                         <img src="img/slides/visibilidad minisuper/08.jpg">
                         </div>
                     </div>
 			    </div>

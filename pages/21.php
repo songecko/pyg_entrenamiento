@@ -1,5 +1,6 @@
 <div class="pt-page pt-page-categorias container-fluid redSection">
 	<p class="pageTitleHolder">Distibución</p>
+    <audio preload="auto"><source src="Sound/categorias.mp3" type="audio/mpeg" /></audio>
 	<div class="contenido">
 		<h2>CATEGORÍAS</h2>
 		<ul class="nav nav-tabs" id="categoriasTab">

@@ -4,8 +4,8 @@
 					<h2>ANAQUEL PROTECCIÓN FEMENINA</h2> 
                     <p class="text-center">43%  de Participación de Anaquel</p>
                       <div class=" row-fluid">
-                    	<div class="span12">
-                         <img src="http://placehold.it/744x300">
+                    	<div style="text-align:center">
+                         <img src="img/slides/visibilidad minisuper/06.jpg">
                         </div>
                     </div>
 			    </div>

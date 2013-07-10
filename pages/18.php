@@ -1,5 +1,6 @@
 <div class="pt-page pt-page-s-3 container-fluid orangeSection">
 				<p class="pageTitleHolder">Indicadores de Desempeño</p>
+                <audio preload="auto"><source src="Sound/indicadores.mp3" type="audio/mpeg" /></audio>
 				<div class="contenido nextButton" data-go-to-page="4">
 					<table class="indicadores">
                     <tr>

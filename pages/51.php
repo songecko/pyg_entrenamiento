@@ -4,8 +4,8 @@
 					<h2>ANAQUEL JABON</h2> 
                     <p class="text-center">55%  de Participación de Anaquel</p>
                       <div class=" row-fluid">
-                    	<div class="span12">
-                         <img src="http://placehold.it/744x300">
+                    	<div style="text-align:center">
+                         <img src="img/slides/visibilidad minisuper/04.jpg">
                         </div>
                     </div>
 			    </div>

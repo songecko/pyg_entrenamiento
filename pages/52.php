@@ -4,8 +4,8 @@
 					<h2>ABAQUEL RASURADO</h2> 
                     <p class="text-center">30%  de Participación de Anaquel</p>
                       <div class=" row-fluid">
-                    	<div class="span12">
-                         <img src="http://placehold.it/744x300">
+                    	<div style="text-align:center">
+                         <img src="img/slides/visibilidad minisuper/05.jpg">
                         </div>
                     </div>
 			    </div>

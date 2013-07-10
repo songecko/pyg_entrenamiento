@@ -1,5 +1,5 @@
 <div class="pt-page pt-page-1 container-fluid text-center">
-	<audio preload="auto"><source src="audio/01_BIENVENIDOS.mp3" type="audio/mpeg" /></audio>
+	<audio preload="auto"><source src="Sound/bienvenido.mp3" type="audio/mpeg" /></audio>
 	<div class="logoPrincipal">
 		<img src="img/logo.png" />
 	</div>

@@ -1,6 +1,6 @@
 <div class="pt-page pt-page-s-1 container-fluid  orangeSection">
 				<p class="pageTitleHolder">Misión y Responsabilidades</p>
-				<audio preload="auto"><source src="audio/05.mp3" type="audio/mpeg" /></audio>
+				<audio preload="auto"><source src="Sound/misionsupervisor.mp3" type="audio/mpeg" /></audio>
 				<div class="contenido nextButton">
 					<h2>¿CUÁL ES TU ROL EN EL EQUIPO?</h2>
                     <p>-Supervisa un número óptimo de 10 personas.<br />

@@ -3,9 +3,9 @@
 				<div class="contenido nextButton">
 					<h2>ANAQUEL TINTES Y COLORANTES</h2> 
                     <p class="text-center">24%  de Participación de Anaquel</p>
-                      <div class=" row-fluid">
-                    	<div class="span12">
-                         <img src="http://placehold.it/744x300">
+                      <div class="row-fluid">
+                    	<div style="text-align:center">
+                         <img src="img/slides/visibilidad minisuper/09.jpg">
                         </div>
                     </div>
 			    </div>

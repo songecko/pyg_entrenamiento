@@ -1,6 +1,7 @@
 <div class="pt-page pt-page-vtbc-4 container-fluid violetSection">
 				<p class="pageTitleHolder">Visibilidad</p>
-				<div class="contenido nextButton">
+                <audio preload="auto"><source src="Sound/estandarvisibilidad.mp3" type="audio/mpeg" /></audio>
+                				<div class="contenido nextButton">
 					<h2>ESTÁNDAR DE VISIBILIDAD</h2>
                       <div class=" row-fluid">
                     	<div class="span12">

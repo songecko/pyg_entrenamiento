@@ -1,6 +1,6 @@
 <div class="pt-page pt-page-ce container-fluid text-center">
 	<p class="pageTitleHolder">Supervisor</p>
-	<audio preload="auto"><source src="audio/comienza_entrenamiento.mp3" type="audio/mpeg" /></audio>
+	<audio preload="auto"><source src="Sound/comienza.mp3" type="audio/mpeg" /></audio>
 	<img src="img/fondo_2.jpg" class="background" />
 	<div class="SeccionPosicion content">
 		<p class="tituloSeccion">Comienza el Entrenamiento</p>

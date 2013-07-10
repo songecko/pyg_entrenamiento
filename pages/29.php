@@ -1,103 +1,103 @@
 <div class="pt-page pt-page-productos container-fluid violetSection">
-	<p class="pageTitleHolder">Distibución</p>
+	<p class="pageTitleHolder">Distribución | Produtos</p>
+    <audio preload="auto"><source src="Sound/pro_1.mp3" type="audio/mpeg" /></audio>
 	<div class="contenido3">
-		<h2>PRODUCTOS</h2>
-		<ul class="nav nav-tabs" id="productosTab">
-  			<li class="active"><a href="#detergentes">Detergentes</a></li>
- 	 		<li><a href="#suavizantes">Suavizantes</a></li>
-  			<li><a href="#lavatrastes">Lavatrastes</a></li>
-  			<li><a href="#papel">Papel</a></li>
-            <li><a href="#shampoos">Shampoos</a></li>
-            <li><a href="#jabones">Jabones</a></li>
-            <li><a href="#proteccionFemenina">Protección Femenina</a></li>
-            <li><a href="#cuidadoBucal">Cuidado Bucal</a></li>
-            <li><a href="#rasurado">Rasurado</a></li>
-            <li><a href="#desodorantes">Desodorantes</a></li>
-            <li><a href="#pilas">Pilas</a></li>
-            <li><a href="#salud">Salud</a></li>
+		<ul class="nav nav-tabs" id="productosDTab">
+  			<li class="active"><a href="#pd_detergentes">Detergentes</a></li>
+ 	 		<li><a href="#pd_suavizantes">Suavizantes</a></li>
+  			<li><a href="#pd_lavatrastes">Lavatrastes</a></li>
+  			<li><a href="#pd_papel">Papel</a></li>
+            <li><a href="#pd_shampoos">Shampoos</a></li>
+            <li><a href="#pd_jabones">Jabones</a></li>
+            <li><a href="#pd_proteccionFemenina">Protección Femenina</a></li>
+            <li><a href="#pd_cuidadoBucal">Cuidado Bucal</a></li>
+            <li><a href="#pd_rasurado">Rasurado</a></li>
+            <li><a href="#pd_desodorantes">Desodorantes</a></li>
+            <li><a href="#pd_pilas">Pilas</a></li>
+            <li><a href="#pd_salud">Salud</a></li>
 		</ul>
 		<div class="tab-content nextButton">
-  			<div class="tab-pane active" id="detergentes"> 
-            	<div class=" row-fluid">
-                	<div class="span12">
-                    	<img src="http://placehold.it/744x300">
+  			<div class="tab-pane active" id="pd_detergentes"> 
+            	<div class="row-fluid">
+                	<div style="text-align:center; overflow:scroll; height:400px;overflow-x: hidden;">
+                    	<img src="img/slides/productos/tieanda a/01.jpg" width="740">
                     </div>
                 </div>
             </div>
-  			<div class="tab-pane" id="suavizantes">
+  			<div class="tab-pane" id="pd_suavizantes">
             	<div class=" row-fluid">
-                	<div class="span12">
-                    	<img src="http://placehold.it/744x300">
+                	<div style="text-align:center; overflow:scroll; height:400px;overflow-x: hidden;">
+                    	<img src="img/slides/productos/tieanda a/02.jpg" width="740">
                     </div>
                 </div>
             </div>
-  			<div class="tab-pane" id="lavatrastes">
+  			<div class="tab-pane" id="pd_lavatrastes">
             	<div class=" row-fluid">
-                	<div class="span12">
-                    	<img src="http://placehold.it/744x300">
+                	<div style="text-align:center; overflow:scroll; height:400px;overflow-x: hidden;">
+                    	<img src="img/slides/productos/tieanda a/03.jpg" width="740">
                     </div>
                 </div>
             </div>
-  			<div class="tab-pane" id="papel">
+  			<div class="tab-pane" id="pd_papel">
             	<div class=" row-fluid">
-                	<div class="span12">
-                    	<img src="http://placehold.it/744x300">
+                	<div style="text-align:center; overflow:scroll; height:400px;overflow-x: hidden;">
+                    	<img src="img/slides/productos/tieanda a/04.jpg" width="740">
                     </div>
                 </div>
             </div>
-            <div class="tab-pane" id="shampoos">
+            <div class="tab-pane" id="pd_shampoos">
             	<div class=" row-fluid">
-                	<div class="span12">
-                    	<img src="http://placehold.it/744x300">
+                	<div style="text-align:center; overflow:scroll; height:400px;overflow-x: hidden;">
+                    	<img src="img/slides/productos/tieanda a/05.jpg" width="740">
                     </div>
                 </div>
             </div>
-  			<div class="tab-pane" id="jabones">
+  			<div class="tab-pane" id="pd_jabones">
             	<div class=" row-fluid">
-                	<div class="span12">
-                    	<img src="http://placehold.it/744x300">
+                	<div style="text-align:center; overflow:scroll; height:400px;overflow-x: hidden;">
+                    	<img src="img/slides/productos/tieanda a/06.jpg" width="740">
                     </div>
                 </div>
             </div>
-  			<div class="tab-pane" id="proteccionFemenina">
+  			<div class="tab-pane" id="pd_proteccionFemenina">
             	<div class=" row-fluid">
-                	<div class="span12">
-                    	<img src="http://placehold.it/744x300">
+                	<div style="text-align:center; overflow:scroll; height:400px;overflow-x: hidden;">
+                    	<img src="img/slides/productos/tieanda a/07.jpg" width="740">
                     </div>
                 </div>
             </div>
-  			<div class="tab-pane" id="cuidadoBucal">
+  			<div class="tab-pane" id="pd_cuidadoBucal">
             	<div class=" row-fluid">
-                	<div class="span12">
-                    	<img src="http://placehold.it/744x300">
+                	<div style="text-align:center; overflow:scroll; height:400px;overflow-x: hidden;">
+                    	<img src="img/slides/productos/tieanda a/08.jpg" width="740">
                     </div>
                 </div>
             </div>
-            <div class="tab-pane" id="rasurado">
+            <div class="tab-pane" id="pd_rasurado">
             	<div class=" row-fluid">
-                	<div class="span12">
-                    	<img src="http://placehold.it/744x300">
+                	<div style="text-align:center; overflow:scroll; height:400px;overflow-x: hidden;">
+                    	<img src="img/slides/productos/tieanda a/09.jpg" width="740">
                     </div>
                 </div> 
             </div>
-  			<div class="tab-pane" id="desodorantes">
+  			<div class="tab-pane" id="pd_desodorantes">
             	<div class=" row-fluid">
-                	<div class="span12">
-                    	<img src="http://placehold.it/744x300">
+                	<div style="text-align:center; overflow:scroll; height:400px;overflow-x: hidden;">
+                    	<img src="img/slides/productos/tieanda a/10.jpg" width="740">
                     </div>
                 </div>
             </div>
-  			<div class="tab-pane" id="pilas">
+  			<div class="tab-pane" id="pd_pilas">
             	<div class=" row-fluid">
-                	<div class="span12">
-                    	<img src="http://placehold.it/744x300">
+                	<div style="text-align:center; overflow:scroll; height:400px;overflow-x: hidden;">
+                    	<img src="img/slides/productos/tieanda a/11.jpg" width="740">
                     </div>
                 </div>
             </div>
-  			<div class="tab-pane" id="salud">
+  			<div class="tab-pane" id="pd_salud">
             	<div class=" row-fluid">
-                	<div class="span12">
-                    	<img src="http://placehold.it/744x300">
+                	<div style="text-align:center; overflow:scroll; height:400px;overflow-x: hidden;">
+                    	<img src="img/slides/productos/tieanda a/12.jpg" width="740">
                     </div>
                 </div>   
             </div>
@@ -110,11 +110,11 @@
 		</ol>
 	</div>
 	<script type="text/javascript">
-	$('#productosTab a').click(function(e)
+	$('#productosDTab a').click(function(e)
 	{
 		$(this).tab('show');
 		e.preventDefault();			
 	});
-	$('#productosTab a:first').tab('show');
+	$('#productosDTab a:first').tab('show');
 	</script>
 </div>

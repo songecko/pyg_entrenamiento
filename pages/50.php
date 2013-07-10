@@ -4,8 +4,8 @@
 					<h2>ANAQUEL SUAVIZANTES</h2> 
                     <p class="text-center">35% de Participación de Anaquel</p>
                       <div class=" row-fluid">
-                    	<div class="span12">
-                         <img src="http://placehold.it/744x300">
+                    	<div style="text-align:center">
+                         <img src="img/slides/visibilidad minisuper/03.jpg">
                         </div>
                     </div>
 			    </div>

@@ -1,6 +1,6 @@
 <div class="pt-page pt-page-va-2 container-fluid orangeSection">
 				<p class="pageTitleHolder">Misión y Responsabilidades</p>
-				<audio preload="auto"><source src="audio/06.mp3" type="audio/mpeg" /></audio>
+				<audio preload="auto"><source src="Sound/misionvendedora.mp3" type="audio/mpeg" /></audio>
 				<div class="contenido nextButton">
 					<h2>¿CUÁL ES TU ROL EN EL EQUIPO?</h2>
                     <p>-Cubre la ruta asignada con el objetivo de realizar una cobertura efectiva, distribuir el portafolio correcto para las tienda tipo A y obtener la cuota de volumen.<br />

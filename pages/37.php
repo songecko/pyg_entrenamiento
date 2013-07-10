@@ -1,5 +1,6 @@
 <div class="pt-page pt-page-vtbc-2 container-fluid violetSection">
 				<p class="pageTitleHolder">Distibución</p>
+                <audio preload="auto"><source src="Sound/portafolioideal.mp3" type="audio/mpeg" /></audio>
 				<div class="contenido nextButton">
 					<h2>¿QUÉ ES EL PORTAFOLIO IDEAL?</h2>
                     <p>Es el conjunto de productos que debe tener el punto de venta para maximizar los beneficios del consumidor, comprador, tendero y distribuidor.<br /><br />

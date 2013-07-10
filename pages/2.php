@@ -1,4 +1,6 @@
 <div class="pt-page pt-page-2 container-fluid text-center">
+	<audio preload="auto"><source src="Sound/posicion.mp3" type="audio/mpeg" /></audio>
+	<div class="prevButton" data-transition-effect="26"></div>
 	<img src="img/fondo_2.jpg" class="background" />
 	<div class="SeccionPosicion content">
 		<p class="tituloSeccion">Elije tu Posición y comienza el Entrenamiento</p>

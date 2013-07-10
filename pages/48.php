@@ -4,8 +4,8 @@
 					<h2>ANAQUEL DE DETERGENTES</h2> 
                     <p class="text-center">55% de Participación de Anaquel (Dentro de Polvos)</p>
                       <div class=" row-fluid">
-                    	<div class="span12">
-                         <img src="http://placehold.it/744x300">
+                    	<div style="text-align:center">
+                         <img src="img/slides/visibilidad minisuper/01.jpg">
                         </div>
                     </div>
 			    </div>

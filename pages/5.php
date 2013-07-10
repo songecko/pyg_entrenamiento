@@ -1,8 +1,6 @@
 <div class="pt-page pt-page-i-1 container-fluid greenSection">
   <p class="pageTitleHolder">Información de P&G </p>
-  <audio preload="auto">
-    <source src="audio/04.mp3" type="audio/mpeg" />
-  </audio>
+  <audio preload="auto"><source src="Sound/historia.mp3" type="audio/mpeg" /></audio>
   <div class="contenido nextButton bg_historia">
     <h2>HISTORIA DE P&G </h2>
     <p>&bull; <span class="textoDestacado">En 1837</span>, la empresa Procter & Gamble fué fundada en Cincinnati, Ohio, Estados Unidos, por William Procter, un inglés fabricante de velas y por James Gamble un irlandés fabricante de jabón.</p>

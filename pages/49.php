@@ -4,8 +4,8 @@
 					<h2>ANAQUEL DE CUIDADO DE CABELLO</h2> 
                     <p class="text-center">Mínimo 25% de Participación de Anaquel</p>
                       <div class=" row-fluid">
-                    	<div class="span12">
-                         <img src="http://placehold.it/744x300">
+                    	<div style="text-align:center">
+                         <img src="img/slides/visibilidad minisuper/02.jpg">
                         </div>
                     </div>
 			    </div>

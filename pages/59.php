@@ -1,5 +1,6 @@
 <div class="pt-page pt-page-vm-15 container-fluid violetSection">
 				<p class="pageTitleHolder">Mercaderismo</p>
+                  <audio preload="auto"><source src="Sound/exhibidores.mp3" type="audio/mpeg" /></audio>
 				<div class="contenido nextButton">
 					<h2>EXHIBIDORES</h2>
                     <div class=" row-fluid">

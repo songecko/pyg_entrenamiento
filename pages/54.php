@@ -2,9 +2,9 @@
 				<p class="pageTitleHolder">Visibilidad</p>
 				<div class="contenido nextButton">
 					<h2>ANAQUEL LAVATRASTES</h2> 
-                      <div class=" row-fluid">
-                    	<div class="span12">
-                         <img src="http://placehold.it/744x300">
+                      <div class="row-fluid">
+                    	<div style="text-align:center">
+                         <img src="img/slides/visibilidad minisuper/07.jpg">
                         </div>
                     </div>
 			    </div>
