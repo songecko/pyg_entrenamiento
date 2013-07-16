@@ -1,14 +1,8 @@
 <div class="pt-page pt-page-vm-6 container-fluid violetSection">
 				<p class="pageTitleHolder">Visibilidad</p>
-				<div class="contenido nextButton">
-					<h2>ANAQUEL SUAVIZANTES</h2> 
-                    <p class="text-center">35% de Participación de Anaquel</p>
-                      <div class=" row-fluid">
-                    	<div style="text-align:center">
-                         <img src="img/slides/visibilidad minisuper/03.jpg">
-                        </div>
-                    </div>
-			    </div>
+				<div class="contenido4 nextButton">
+                <img src="img/slides/minisuper/anaqueles/suavizantes.png" />
+                </div>
                 <div class="container-fluid">
                       <ol class="paginador">
     					<li data-target="#myCarousel" data-slide-to="0"></li>

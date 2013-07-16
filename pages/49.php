@@ -1,14 +1,8 @@
 <div class="pt-page  pt-page-vm-5 container-fluid violetSection">
 				<p class="pageTitleHolder">Visibilidad</p>
-				<div class="contenido nextButton">
-					<h2>ANAQUEL DE CUIDADO DE CABELLO</h2> 
-                    <p class="text-center">Mínimo 25% de Participación de Anaquel</p>
-                      <div class=" row-fluid">
-                    	<div style="text-align:center">
-                         <img src="img/slides/visibilidad minisuper/02.jpg">
-                        </div>
-                    </div>
-			    </div>
+				<div class="contenido4 nextButton">
+                <img src="img/slides/minisuper/anaqueles/cabello.png" />
+                </div>
                 <div class="container-fluid">
                       <ol class="paginador">
     					<li data-target="#myCarousel" data-slide-to="0"></li>

@@ -28,6 +28,7 @@ p { font-size: 20px;}
 .contenido { background:#FFFFFF; padding: 20px; height: 485px; overflow: auto;}
 .contenido2 {}
 .contenido3 { background:#FFFFFF; padding: 20px; height: 485px;}
+.contenido4 { height: 547px;}
 .next {position: relative; left: 62px; top: 0px;}
 .posicion {width: 273px;float: left; padding-right:10px; }
 .seccion {width: 274px; height:163px;float: left; margin: 5px;box-shadow: 0 2px 5px #0f2535; }
@@ -57,6 +58,7 @@ li { list-style:none; }
 }
 .SeccionPosicion /*{ margin:160px 67px;}*/{padding-top: 85px;}
 .contenido , .contenido2 , .contenido3{ margin: 130px 92px;}
+.contenido4 { margin: 117px 92px;}
 .content{ margin:100px 56px;}
 .pt-page-ce .content{ margin:100px 200px;}
 .btMenu {position: absolute;left: 0px;top: 0px;}
@@ -68,6 +70,7 @@ width: 31px;
 height: 28px;}
 .icon-next { background-position: 20px;float: right;background: url(../img/bt-siguiente.png) no-repeat;padding-right: 10px;}
 .icono {float: left;padding: 30px 0px 0px 16px;}
+
 .iconoEsp {float: left;padding: 9px 0px 0px 16px;}
 .paginador {
 position: absolute;
@@ -124,3 +127,7 @@ table.indicadores td { border-bottom:solid 1px #f1f1f1; padding:12px 10px; verti
 
 .contenido ul li { color:#666; font-size:13px; margin-bottom:10px;}
 .prevButton {display:none;}
+.contenido4 img { width:842px !important; height:525px !important;}
+
+
+video { border:none !important; background:none !important;}

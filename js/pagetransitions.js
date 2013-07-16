@@ -464,7 +464,7 @@ var PageTransitions = (function() {
 	function stopSoundOfPage(page)
 	{	
 		var audio = page.children('audio').get(0);
-		var video = page.children('video').get(0);
+		var video = page.find('video').get(0);
 		if(audio)
 		{
 			audio.pause();
@@ -478,10 +478,15 @@ var PageTransitions = (function() {
 	function playSoundOfPage(page)
 	{
 		var audio = page.children('audio').get(0);
+		var video = page.find('video').get(0);
 		if(audio)
 		{
 			audio.play();
 		}
+		if(video)
+		{
+			video.play();
+		}		
 	}
 	
 	function setPageTitleOfPage(page)

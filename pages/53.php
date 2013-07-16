@@ -1,14 +1,8 @@
 <div class="pt-page pt-page-vm-9  container-fluid violetSection">
 				<p class="pageTitleHolder">Visibilidad</p>
-				<div class="contenido nextButton">
-					<h2>ANAQUEL PROTECCIÓN FEMENINA</h2> 
-                    <p class="text-center">43%  de Participación de Anaquel</p>
-                      <div class=" row-fluid">
-                    	<div style="text-align:center">
-                         <img src="img/slides/visibilidad minisuper/06.jpg">
-                        </div>
-                    </div>
-			    </div>
+				<div class="contenido4 nextButton">
+                <img src="img/slides/minisuper/anaqueles/femenino.png" />
+                </div>
                 <div class="container-fluid">
                       <ol class="paginador">
     					<li data-target="#myCarousel" data-slide-to="0"></li>

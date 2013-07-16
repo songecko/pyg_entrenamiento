@@ -1,10 +1,9 @@
 <div class="pt-page pt-page-vm-18 container-fluid violetSection">
 	<p class="pageTitleHolder">Mercaderismo</p>
       <audio preload="auto"><source src="Sound/iniciativas.mp3" type="audio/mpeg" /></audio>
-	<div class="contenido nextButton text-center" data-go-to-page="26">
-					<h2>Para conocer las iniciativas visitá la siguiente página:</h2>
-                    <p>http://distribuidorportal.pg.com</p>
-			    </div>
+      <div class="contenido4 nextButton" data-go-to-page="26">
+			    <img src="img/slides/iniciativas.png"/> </div>
+	
                 <div class="container-fluid">
                       <ol class="paginador">
     					<li data-target="#myCarousel" data-slide-to="0"></li>

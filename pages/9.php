@@ -1,6 +1,7 @@
 <div class="pt-page pt-page-i-5 container-fluid greenSection">
   <p class="pageTitleHolder">Información de P&G </p>
   <audio preload="auto"><source src="Sound/sustentabilidad.mp3" type="audio/mpeg" /></audio>
+
   <div class="contenido nextButton">
     <h2>SUSTENTABILIDAD</h2>
     <p class="textoDestacado">Sustentabilidad: es asegurar una mejor calidad de vidad hoy, para las personas y también para nuestro planeta. </p>
